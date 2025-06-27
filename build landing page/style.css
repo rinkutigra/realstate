@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    z-index:999 ;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    border-radius: 25px;
+    background-color: #F5F5F5;
+}
+
+.header-container a {
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.header-item {
+    display: flex;
+}
+
+.header-item p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-item p {
+    padding: 0 20px;
+}
+
+.header-contact-us {
+    display: flex;
+}
+
+.header-contact-us p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-contact-us p {
+    padding: 0 20px;
+}
+
+.contact-us-header {
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header-container a:hover {
+    color: rgb(157, 100, 43);
+}
+
+.main-banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-banner {
+    display: flex;
+    width: 90%;
+    padding: 30px 0;
+    background: #C1DEE8;
+    background: linear-gradient(90deg, rgba(193, 222, 232, 1) 0%, rgba(251, 217, 185, 1) 100%);
+    border-radius: 25px;
+    overflow: visible;
+    height: 500px;
+}
+
+.main-banner-text h5 {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-banner-text h5:first-child {
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.main-banner-text h1 {
+    font-size: 65px;
+    margin-left: 40px;
+    font-weight: 900;
+}
+
+.main-banner-image img {
+    width: 600px;
+}
+
+.main-banner-text input {
+    width: 400px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+}
+
+.main-banner-text button {
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin-left: -148px;
+}
+
+.text-cards-section {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.text-cards-container {
+    width: 90%;
+}
+
+.text-cards-heading {
+    text-align: center;
+}
+
+.text-cards-heading p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.text-cards-heading h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.text-cards-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text-card {
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-card {
+    overflow: hidden;
+}
+
+.text-card img {
+    width: 50px;
+}
+
+.text-card1 img {
+    filter: drop-shadow(0px 100px 0 #118800);
+    transform: translateY(-100px);
+}
+
+.text-card2 img {
+    filter: drop-shadow(0px 100px 0 #eeb005);
+    transform: translateY(-100px);
+}
+
+.text-card3 img {
+    filter: drop-shadow(0px 100px 0 #1f0edb);
+    transform: translateY(-100px);
+}
+
+.text-card h5 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.projects-container {
+    width: 90%;
+}
+
+.project-heading p {
+    font-size: 20px;
+}
+
+.project-heading h5 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.project-cards {
+    display: flex;
+}
+
+.project-card {
+    margin: 15px 0;
+    width: 33%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 1px 10px wheat;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-card h5 {
+    margin: 10px 0;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.project-card img {
+    transition: 0.3s;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-button a {
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.project-button a:hover {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 1px 1px 10px #704b05
+}
+
+.brokerage-conrainer {
+    width: 90%;
+}
+
+.brokerage-section {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.brokerage-conrainer-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.brokerage-conrainer-cards {
+    display: flex;
+}
+
+.brokerage-conrainer-cards-card {
+    width: 50%;
+    padding: 40px;
+}
+
+.brokerage-conrainer-cards-card1 h2 {
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.brokerage-conrainer-cards-card1>p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.brokerage-conrainer-cards-card1 a {
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.brokerage-conrainer-cards-card1 a:hover {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 1px 1px 10px #704b05
+}
+
+.brokerage-conrainer-cards-card1-numbers {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brokerage-conrainer-cards-card1-numbers p {
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.brokerage-conrainer-cards-card1-numbers p>span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-container {
+    width: 90%;
+    background: #C1DEE8;
+    background: linear-gradient(90deg, rgba(193, 222, 232, 1) 0%, rgba(251, 217, 185, 1) 100%);
+    border-radius: 25px;
+    height: 530px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container-cards {
+    display: flex;
+}
+
+.footer-section-card1 input {
+    width: 400px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+}
+
+.footer-section-card1 button {
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin-left: -148px;
+}
+
+.footer-section-card {
+    width: 50%;
+    padding: 20px;
+}
+
+.footer-section-card1 h2 {
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-section-card1 p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+    .header-container a {
+        font-size: 12px;
+        transition: 0.3s all;
+    }
+
+    .logo-image img {
+        width: 65px;
+        margin-left: 8px;
+    }
+
+    .header-item p {
+        padding: 0 11px;
+    }
+
+    .header-contact-us p {
+        padding: 0 8px;
+    }
+
+    .header-items {
+        margin-top: 9px;
+    }
+
+    .main-banner-image {
+        visibility: hidden;
+
+    }
+
+    .project-card {
+        overflow: hidden;
+    }
+
+    .project-card img {
+        width: 100%;
+    }
+
+    .brokerage-conrainer-cards-card2 {
+        padding: 0;
+    }
+
+    .brokerage-conrainer-cards-card2 {
+        width: 45%;
+    }
+
+    .brokerage-conrainer-cards-card2 img {
+        width: 100%;
+        margin-top: 62px;
+    }
+
+    .brokerage-conrainer-cards-card1-numbers {
+        margin-top: 38px;
+
+    }
+
+    .footer-section-card1 h2 {
+        margin-top: 70px;
+    }
+
+    .footer-section-card1 input {
+        margin-left: 0;
+    }
+
+    .footer-section-card1 button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer-section-card2 img {
+        width: 320px;
+        margin-left: -60px;
+    }
+
+
+    .footer-container {
+        height: 450px;
+    }
+
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 650px){
+header{
+    margin-bottom: 90px;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    background-color: #fff;
+}
+
+.header-logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.header-items,
+.header-contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.header-item p,
+.header-contact-us p {
+    margin: 0;
+}
+
+.contact-us-header a {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+
+.brokerage-conrainer-cards{
+    display: block;
+}
+
+.brokerage-conrainer-cards-card{
+    width: 100%;
+}
+    .footer-section-card2 img {
+        width: 254px;
+        margin-left: -43px;
+        margin-top: 54px;
+    }
+    .footer-container {
+        height: 498px;
+    }
+
+        .footer-section-card1 h2 {
+        margin-top: -2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
