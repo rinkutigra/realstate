@@ -407,7 +407,7 @@ header {
     }
 
     .main-banner-image {
-        visibility: hidden;
+       display: none;
 
     }
 
@@ -464,9 +464,37 @@ header {
 
 /* -------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 650px){
+
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 header{
     margin-bottom: 90px;
 }
+
+.main-banner-text input {
+    width: 320px;
+}
+.main-banner-text h1{
+    margin-left: 10px;
+    font-size: 35px;
+}
+.main-banner-text h5 {
+    margin-left: 10px!important;
+    font-size: 15px!important;
+}
+.main-banner-text input{
+    margin-left: 10px;
+}
+.footer-section-card1 input {
+    width: 302px;
+}
+
+
+
+
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -500,6 +528,15 @@ header{
     color: #007BFF;
 }
 
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-heading{
+    text-align: center;
+}
+
 
 .brokerage-conrainer-cards{
     display: block;
@@ -508,14 +545,37 @@ header{
 .brokerage-conrainer-cards-card{
     width: 100%;
 }
+
+.brokerage-conrainer-cards-card1-numbers p {
+    font-size: 40px;
+}
+.brokerage-conrainer-cards-card1-numbers p>span {
+    font-size: 17px;
+}
+
+
+.footer-container-cards{
+    display: block;
+}
+.footer-section-card{
+    width: 100%;
+}
+.footer-section-card1 p{
+    margin-bottom: 0;
+}
+
+
     .footer-section-card2 img {
-        width: 254px;
-        margin-left: -43px;
-        margin-top: 54px;
+        width: 225px;
+        margin-left: 95px;
+        margin-top: -90px;
     }
-    .footer-container {
-        height: 498px;
-    }
+
+        .footer-container {
+    min-height: 100%;
+    height: auto;
+}
+    
 
         .footer-section-card1 h2 {
         margin-top: -2px;
